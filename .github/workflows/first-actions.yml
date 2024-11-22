@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: print the myfirstname
+      - name: Print the myfirstname
         run: echo "kottu"
-      - name: print the secontname
+      - name: Print the secondname
         run: echo "somaraju"
