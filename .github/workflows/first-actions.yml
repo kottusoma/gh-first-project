@@ -1,0 +1,10 @@
+name: first workflow
+on: workflow-dispatch
+jobs: 
+  first-job:
+    run-on: ubuntu-latest
+    steps:
+      - name: print the myfirstname
+        run: echo "kottu"
+      - name: print the secontname
+        run: echo "somaraju"
